@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shree Ganesha Dream Homes | Luxury Real Estate Pune</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0a0a0a;
+color:white;
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+nav{
+position:fixed;
+width:100%;
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:rgba(0,0,0,0.7);
+backdrop-filter:blur(12px);
+z-index:999;
+}
+
+nav h2{color:#00e5ff;}
+nav a{color:white;margin-left:25px;text-decoration:none;font-size:14px;}
+
+/* HERO */
+.hero{
+height:100vh;
+background:
+linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.9)),
+url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+background-size:cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:800;
+letter-spacing:1px;
+}
+
+.hero p{
+margin:20px 0;
+font-size:18px;
+color:#ccc;
+}
+
+.btn{
+background:#00e5ff;
+padding:14px 30px;
+border-radius:50px;
+color:black;
+font-weight:600;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn:hover{background:white;}
+
+/* SECTION */
+.section{
+padding:120px 40px;
+text-align:center;
+}
+
+/* ABOUT */
+.about{
+max-width:900px;
+margin:auto;
+line-height:1.9;
+color:#ccc;
+font-size:18px;
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:linear-gradient(145deg,#111,#1c1c1c);
+padding:25px;
+border-radius:15px;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-12px);
+}
+
+/* PROPERTY */
+.property img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+}
+
+/* LOCATION IMAGES */
+.location img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:12px;
+}
+
+/* TESTIMONIAL */
+.testimonial{
+font-style:italic;
+color:#ddd;
+}
+
+/* CONTACT */
+input,textarea{
+width:70%;
+padding:12px;
+margin:10px;
+border-radius:6px;
+border:none;
+}
+
+/* FOOTER */
+footer{
+background:#000;
+padding:30px;
+text-align:center;
+color:#aaa;
+}
+
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+padding:16px;
+border-radius:50%;
+color:white;
+text-decoration:none;
+font-size:20px;
+}
+
+/* ANIMATION */
+.fade{
+opacity:0;
+transform:translateY(40px);
+transition:1s;
+}
+.show{
+opacity:1;
+transform:translateY(0);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Shree Ganesha Dream Homes</h2>
+<div>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#properties">Properties</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<div>
+<h1>Luxury Living Begins Here</h1>
+<p>Premium Homes | Smart Investments | Trusted Expertise</p>
+<a class="btn" href="https://wa.me/919922840022">Schedule a Visit</a>
+</div>
+</section>
+
+<section class="section fade" id="about">
+<h2>About Us</h2>
+<p class="about">
+At <b>Shree Ganesha Dream Homes</b>, we redefine the way you experience real estate.
+
+We don’t just help you buy property—we help you secure a future, elevate your lifestyle, and make one of the most important decisions of your life with complete confidence.
+
+With deep expertise in Pune’s most premium locations like Kharadi, Amanora, Magarpatta, and Mundhwa, we bring you carefully selected properties that offer not just comfort—but long-term value and growth.
+
+Our philosophy is simple: transparency, trust, and delivering beyond expectations.
+
+When you choose us, you don’t just find a house—you discover your dream home.
+</p>
+</section>
+
+<section class="section fade">
+<h2>Signature Locations</h2>
+<div class="grid location">
+<img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae">
+<img src="https://images.unsplash.com/photo-1494526585095-c41746248156">
+<img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511">
+<img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716">
+</div>
+<p style="margin-top:20px;color:#aaa;">Kharadi | Amanora | Magarpatta | Mundhwa</p>
+</section>
+
+<section class="section fade" id="properties">
+<h2>Featured Residences</h2>
+
+<div class="grid">
+
+<div class="card property">
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d">
+<h3>Premium 2BHK Apartment</h3>
+<p>Kharadi | Luxury Living</p>
+</div>
+
+<div class="card property">
+<img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2">
+<h3>Luxury Villa</h3>
+<p>Amanora Township</p>
+</div>
+
+<div class="card property">
+<img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be">
+<h3>Investment Plot</h3>
+<p>Magarpatta Region</p>
+</div>
+
+</div>
+</section>
+
+<section class="section fade">
+<h2>Client Experience</h2>
+<div class="grid">
+<div class="card testimonial">"Outstanding service and genuine guidance." ⭐⭐⭐⭐⭐</div>
+<div class="card testimonial">"Best property consultant in Pune." ⭐⭐⭐⭐⭐</div>
+<div class="card testimonial">"Smooth and transparent process." ⭐⭐⭐⭐⭐</div>
+</div>
+</section>
+
+<section class="section fade" id="contact">
+<h2>Connect With Us</h2>
+
+<p>📞 9922840022</p>
+<p>📍 A1 308 Basil Mondale, Keshavnagar Mundhwa, Pune</p>
+
+<input type="text" id="name" placeholder="Your Name">
+<input type="text" id="phone" placeholder="Your Phone">
+<textarea id="msg" placeholder="Your Requirement"></textarea>
+
+<br>
+<a class="btn" onclick="sendWhatsApp()">Request Callback</a>
+
+<br><br>
+
+<iframe src="https://maps.google.com/maps?q=Keshavnagar Mundhwa Pune&output=embed"
+width="80%" height="250"></iframe>
+</section>
+
+<footer>
+<p>© 2026 Shree Ganesha Dream Homes | All Rights Reserved</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919922840022">💬</a>
+
+<script>
+function sendWhatsApp(){
+let name=document.getElementById("name").value;
+let phone=document.getElementById("phone").value;
+let msg=document.getElementById("msg").value;
+
+let url="https://wa.me/919922840022?text="
++"Name: "+name+"%0a"
++"Phone: "+phone+"%0a"
++"Requirement: "+msg;
+
+window.open(url,'_blank');
+}
+
+/* SCROLL ANIMATION */
+const faders = document.querySelectorAll('.fade');
+window.addEventListener('scroll', () => {
+faders.forEach(el => {
+const rect = el.getBoundingClientRect();
+if(rect.top < window.innerHeight - 100){
+el.classList.add('show');
+}
+});
+});
+</script>
+
+</body>
+</html>
